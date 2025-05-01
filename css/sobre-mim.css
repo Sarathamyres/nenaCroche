@@ -1,0 +1,29 @@
+.sobre-mim img {
+  max-width: 30%;
+  max-height: 30%;
+}
+.sobre-mim .container {
+  max-width: 1024px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  text-align: justify;
+  gap: 50px;
+}
+.sobre-mim .sobre-mim-texto{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sobre-mim span{
+  color: var(--light-blue);
+  font-weight: 700;
+  font-size: 16px;
+}
+.sobre-mim-texto a{
+  text-decoration: underline;
+  color: var(--light-blue);
+}
+.sobre-mim-texto a:hover{
+ opacity: .8;
+}

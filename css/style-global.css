@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  scroll-behavior: smooth;
+}
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --light-blue: #1877f7;
+  --beige: #f7f0e5;
+  --dark-blue: #0352bd;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-blue);
+  border-radius: 50px;
+}
+body {
+  position: relative;
+}
+.whatsapp-fixed {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 20px;
+  bottom: 50px;
+  background-color: var(--white);
+  font-family: "Poppins";
+  color: var(--dark-blue);
+  max-width: 200px;
+  border-radius: 10px;
+  border: 1px solid var(--dark-blue);
+}
+.whatsapp-fixed a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+}

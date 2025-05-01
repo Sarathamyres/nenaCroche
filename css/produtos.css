@@ -1,0 +1,47 @@
+main img {
+  width: 300px;
+  height: 350px;
+}
+main {
+  margin: 40px 0;
+}
+main .produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+.figureProdutos {
+  height: auto;
+  position: relative;
+}
+.figureProdutos figcaption {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+figcaption button{
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 10px;
+  cursor: pointer;
+}
+figcaption button:hover{
+  padding: 12px;
+}
+.figureProdutos:hover {
+  opacity: 0.8;
+  z-index: 1;
+}
+.figureProdutos:hover img {
+  height: 355px;
+}
+.figureProdutos:hover figcaption {
+  display: block;
+}

@@ -1,0 +1,64 @@
+header .container nav .hamburger {
+  display: none;
+}
+@media (max-width: 1300px){
+  main .container .carrossel img {
+    max-width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 1090px){
+  section.hero .container {
+    background-size: 100%;
+  }
+}
+@media (max-width: 768px) {
+  header .container nav ul {
+    display: none;
+  }
+  header .container nav .hamburger, 
+  article.menu-hamburguer {
+    display: block;
+  }
+  header .logo h1 {
+    font-size: 20px;
+  }
+  section.informacoes-hero-bottom p {
+    display: none;
+  }
+  main > .container:first-child img {
+    max-width: 50%;
+  }
+  main .container .faixa-subtitle {
+    font-size: 15px;
+  }
+}
+@media (max-width: 460px){
+  footer .container {
+    margin: 0;
+    justify-content: start;
+    align-items: stretch;
+    text-align: start;
+    gap: 20px;
+  }
+}
+@media (max-width: 425px) {
+  main > .container:first-child {
+    padding-bottom: 30px;
+  }
+  main > .container:first-child img {
+    max-width: 300px;
+  }
+  main .container .faixa-subtitle {
+    font-size: 2px;
+  }
+}
+@media (max-width: 320px) {
+  header .logo h1 {
+    font-size: px;
+    color: var(--white);
+  }
+  main .container .text-CTA {
+    max-width: 300px;
+  }
+}
