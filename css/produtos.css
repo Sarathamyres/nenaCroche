@@ -1,6 +1,6 @@
 main img {
   width: 100%;
-  height: 100%;
+  height: 350px;
 }
 main {
   margin: 40px 0;
@@ -12,11 +12,12 @@ main .produtos-container {
   justify-content: center;
   gap: 20px;
   text-align: center;
+  max-width: 1500px;
 }
 .figureProdutos {
   position: relative;
   max-width: 300px;
-  max-height: 350px;
+  height: auto;
 }
 .figureProdutos figcaption {
   display: none;
@@ -41,8 +42,22 @@ figcaption button:hover {
   z-index: 1;
 }
 .figureProdutos:hover img {
-  height: 355px;
 }
 .figureProdutos:hover figcaption {
   display: block;
+}
+@media screen and (pointer: fine) {
+}
+
+@media screen and (pointer: coarse) {
+  .figureProdutos figcaption {
+    display: block;
+    position: static;
+  }
+  .figureProdutos:hover figcaption {
+    display: none;
+  }
+  figcaption button {
+    width: 300px;
+  }
 }
