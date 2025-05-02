@@ -8,7 +8,7 @@ header .container nav .hamburger {
   }
 }
 @media (max-width: 1090px){
-  section.hero .container {
+ .hero .container {
     background-size: 100%;
   }
 }
@@ -17,13 +17,13 @@ header .container nav .hamburger {
     display: none;
   }
   header .container nav .hamburger, 
-  article.menu-hamburguer {
+  .menu-hamburguer {
     display: block;
   }
   header .logo h1 {
     font-size: 20px;
   }
-  section.informacoes-hero-bottom p {
+  .informacoes-hero-bottom p {
     display: none;
   }
   main > .container:first-child img {

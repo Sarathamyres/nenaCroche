@@ -47,20 +47,20 @@ header .container nav {
 .container nav ul li:hover {
   font-weight: 500;
 }
-section.hero {
+.hero {
   background: url("/images/banner1.png") center/cover fixed;
   width: 100%;
   height: 70vh;
   overflow: hidden;
   border-radius: 0 0 10px 10px;
 }
-section.hero .container {
+.hero .container {
   background: url("/images/banner-hover.png") no-repeat fixed;
   background-position: center 40%;
   background-size: 60%;
   height: 100%;
 }
-section.informacoes-hero-bottom {
+.informacoes-hero-bottom {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -69,7 +69,7 @@ section.informacoes-hero-bottom {
   padding: 20px;
   font-family: "poppins";
 }
-section.informacoes-hero-bottom div {
+.informacoes-hero-bottom div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,12 +78,12 @@ section.informacoes-hero-bottom div {
   font-weight: 500;
   color: var(--dark-blue);
 }
-section.informacoes-hero-bottom div .div-icon {
+.informacoes-hero-bottom div .div-icon {
   width: 30px;
   height: 30px;
   text-align: center;
 }
-section.informacoes-hero-bottom .div-icon i {
+.informacoes-hero-bottom .div-icon i {
   padding: 10px;
   border-radius: 50%;
   color: var(--dark-blue);

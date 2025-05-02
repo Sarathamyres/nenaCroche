@@ -1,6 +1,6 @@
 main img {
-  width: 300px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
 }
 main {
   margin: 40px 0;
@@ -14,8 +14,9 @@ main .produtos-container {
   text-align: center;
 }
 .figureProdutos {
-  height: auto;
   position: relative;
+  max-width: 300px;
+  max-height: 350px;
 }
 .figureProdutos figcaption {
   display: none;
@@ -26,13 +27,13 @@ main .produtos-container {
   bottom: 0;
   z-index: 2;
 }
-figcaption button{
+figcaption button {
   background-color: var(--dark-blue);
   color: var(--white);
   padding: 10px;
   cursor: pointer;
 }
-figcaption button:hover{
+figcaption button:hover {
   padding: 12px;
 }
 .figureProdutos:hover {
