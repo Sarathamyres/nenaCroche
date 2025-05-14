@@ -42,7 +42,7 @@ main .produtos.escondido {
 }
 .figureProdutos {
   position: relative;
-  width: 300px;
+  max-width: 300px;
   height: auto;
 }
 .figureProdutos figcaption {
@@ -73,13 +73,9 @@ figcaption button:hover {
   z-index: 1;
   text-align: center;
 }
-
 .figureProdutos:hover figcaption {
   display: block;
 }
-@media screen and (pointer: fine) {
-}
-
 @media screen and (pointer: coarse) {
   .figureProdutos figcaption {
     display: block;

@@ -31,7 +31,7 @@ hamburguer.addEventListener("click", () => {
 
 window.addEventListener("scroll", () => {
   const iconFixed = document.querySelector(".icons-fixed");
-  if (window.scrollY <= 0) {
+  if (window.scrollY <= 2) {
     iconFixed.style.display = "none";
   } else {
     iconFixed.style.display = "flex";

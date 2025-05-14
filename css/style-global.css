@@ -28,7 +28,7 @@ body {
   position: relative;
 }
 .icons-fixed {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 20px;
   position: fixed;
