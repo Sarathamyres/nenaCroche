@@ -52,9 +52,9 @@ radioS.forEach((radio) => {
       const valueProd = produto.dataset.categoria;
 
       if (valueCheck === valueProd) {
-        produto.classList.remove("escondido");
+        produto.style.display = "flex";
       } else {
-        produto.classList.add("escondido");
+        produto.style.display = "none";
       }
     });
   });
