@@ -1,7 +1,4 @@
-main img {
-  width: 100%;
-  height: 350px;
-}
+
 main {
   margin: 40px 0;
   height: auto;
@@ -25,7 +22,6 @@ main {
   height: 2px;
   background-color: var(--dark-blue);
 }
-
 input[type="radio"] {
   display: none;
 }
@@ -44,6 +40,11 @@ main .produtos.escondido {
   position: relative;
   max-width: 300px;
   height: auto;
+}
+.figureProdutos img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .figureProdutos figcaption {
   display: none;
