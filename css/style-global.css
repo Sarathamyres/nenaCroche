@@ -21,26 +21,41 @@
   background-color: var(--dark-blue);
   border-radius: 50px;
 }
+.hidden{
+  display: none;
+}
 body {
   position: relative;
 }
-.whatsapp-fixed {
-  display: none;
+.icons-fixed {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   left: 20px;
   bottom: 50px;
-  background-color: var(--white);
   font-family: "Poppins";
   color: var(--dark-blue);
-  max-width: 200px;
-  border-radius: 10px;
-  border: 1px solid var(--dark-blue);
 }
-.whatsapp-fixed a {
+.icons-fixed i {
+  font-size: 40px;
+  background-color: var(--white);
+  padding: 1px 2px;
+  border-radius: 5px;
+}
+.icons-fixed p {
+  display: none;
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 1px 2px;
+  font-weight: 500;
+}
+.icon-fixed-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 10px;
-  padding: 5px;
+  align-items: center;
+}
+.icon-fixed-item:hover p{
+  display: block;
 }
